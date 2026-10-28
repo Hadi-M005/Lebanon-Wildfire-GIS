@@ -1,0 +1,14 @@
+# local development key (never commit)
+js/config.local.js
+
+# large or restricted data stays on your computer
+data/raw/
+*.tif
+*.tiff
+*.gdb/
+*.qgz~
+*.qgs~
+
+# system files
+.DS_Store
+Thumbs.db
