@@ -1,2 +1,0 @@
-
-var esriConfig = { apiKey: "AAPTaZB4v9tDg2FXeF9cMFkV-RQ..XhZA0j1VNqyl9MtvTUzItOvapGrNOR3cCNJj9sZSGjVoGh4lhilrk3gPEuPJcL8z2qO0TuL7xc9OLrROcW2l_shtetEaKh--8Q8AMQYqYHawEQXAzg_H5oJhTXRIGdwCFeoj96Qt4dcRWLwS2Z3iQwzjzO5fOjgOJZOXnm5cMqQtQ8VM-Jwn_7u_hqFPqKYGb7DIR4Skwi7dsayzfqHWAym-41_ilMI3Gtaz-xcuCvfVZBXkjpXPAT1_GTuZ3a6s" };
