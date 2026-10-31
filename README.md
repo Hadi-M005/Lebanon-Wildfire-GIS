@@ -74,6 +74,10 @@ Raw downloads and large rasters are not stored in this repository (see `.gitigno
 
 Hotspots are not fires. Built-up land is over-represented among detections, which points to non-wildland burning. Layer A reflects where detections have occurred, not where fires will occur. Layer B is unvalidated. The boundary layers are digitized from map images and have limited positional accuracy. See [`docs/limitations.md`](docs/limitations.md).
 
+   ## Planned next
+   - Add the analysis scripts so every figure can be reproduced from the raw downloads.
+   - Validate against independent data such as burned-area products or incident records.
+
 ## Licence
 
 Code: `MIT`. Data and derived layers carry the licences and notices listed in `LICENSES-AND-SOURCES.md`.
