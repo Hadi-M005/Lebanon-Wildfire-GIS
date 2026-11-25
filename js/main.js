@@ -1,6 +1,8 @@
 // Lebanon Wildfire Explorer
 // Milestone 3: map, layers, pop-ups, A | B swipe.  Milestone 4: search, filters, statistics panel.
 
+import { initDraw } from "./draw.js";
+
 const [GeoJSONLayer, PopupTemplate] = await $arcgis.import([
   "@arcgis/core/layers/GeoJSONLayer.js",
   "@arcgis/core/PopupTemplate.js"
@@ -398,3 +400,8 @@ compareBtn.addEventListener("click", async () => {
     compareBtn.setAttribute("aria-pressed", "false");
   }
 });
+
+// =====================================================================
+// 8. Draw & analyze (js/draw.js). A failure here must never break the rest of the app.
+// =====================================================================
+initDraw({ viewElement }).catch((error) => console.error("Draw & analyze could not start:", error));
