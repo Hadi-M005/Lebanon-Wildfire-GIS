@@ -87,3 +87,10 @@ dialog p, dialog li { font-size: 0.9rem; line-height: 1.45; }
   body.panel-closed .panel { display: none; }
   .swipe-labels { left: 12px; right: 12px; top: calc(var(--bar-h) + 56px); }
 }
+
+/* ---------- Draw & analyze ---------- */
+#drawSection summary { font-size: 0.95rem; font-weight: 700; cursor: pointer; padding: 6px 0; }
+#drawSection arcgis-sketch { display: block; margin: 6px 0; }
+.draw-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
+.draw-actions button { flex: 1; padding: 6px 8px; font-size: 0.82rem; }
+.draw-actions button:disabled { opacity: 0.5; cursor: default; }
